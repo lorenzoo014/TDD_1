@@ -2,7 +2,7 @@
 def factorial(numero):
     try:
         if numero<0:
-            raise ValueError("Value Error: ")
+            raise ValueError("Value Error:")
         else:
             fact = 1 #var.local
             for i in range(1,numero+1):
