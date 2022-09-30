@@ -1,4 +1,4 @@
-from src import calculadora
+from Ejercicio_2.calcu import calculadora
 # Cargamos el módulo unittest
 import unittest
 # Creamos una clase heredando de TestCase
