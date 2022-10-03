@@ -17,6 +17,7 @@ class Calculator():
     
     def factorial(self,a):
         self.value=math.factorial(a)
+        
     def logaritmo(self,a,b=10):
         self.value=math.log(a,b)
 

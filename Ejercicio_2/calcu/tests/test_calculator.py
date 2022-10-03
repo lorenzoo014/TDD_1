@@ -28,9 +28,11 @@ class TestMyCalculator(unittest.TestCase):
     def test_resta(self):
         self.calc.restar(4,2)
         self.assertEqual(2, self.calc.value)
+        
     def test_multi(self):
         self.calc.multiplicar(4,2)
         self.assertEqual(8, self.calc.value)
+
     def test_divide(self):
         self.calc.dividir(6,2)
         self.assertEqual(3, self.calc.value)
@@ -38,9 +40,11 @@ class TestMyCalculator(unittest.TestCase):
     def test_potencia(self):
         self.calc.potencia(6,2)
         self.assertEqual(36, self.calc.value)
+
     def test_factorial(self):
         self.calc.factorial(5)
         self.assertEqual(120,self.calc.value)
+
     def test_logatirmo(self):
         self.calc.logaritmo(100)
         self.assertEqual(2,self.calc.value)
