@@ -1,4 +1,4 @@
-
+# @staticmethod
 def factorial(numero):
     try:
         if numero<0:

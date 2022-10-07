@@ -25,5 +25,10 @@ class Calculator():
         self.value=math.sqrt(a)
 
 
+c=Calculator()
+c.factorial(3)
+print(c.value)
+#Ejemplo de cómo saber tu mismo lo que da 
+
     
 

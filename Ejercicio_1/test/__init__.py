@@ -1,4 +1,4 @@
-#doctring
+#docstring
 """
 Paquetes:
 Directorios(carpetas) donde se almacenan módulos relacionados entre sí
